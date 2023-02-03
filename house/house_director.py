@@ -12,5 +12,5 @@ class House_Director(House_Builder):
 
     def build_mansion(self):
         self.builder.setQtdeWalls("25").setWallType("Pedra Polida").setFloorType("Mármore").setGardemType("Rosas")
-        self.builder.setPoolVolume("2.500.000L").setRoofType("Telha Especial")
+        self.builder.setPoolVolume("2.500.000L").setRoofType("Telha Especial").setQtdeWindow(10).setWindowType("Vidro")
         return self.builder.build()
